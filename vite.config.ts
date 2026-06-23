@@ -17,7 +17,8 @@ export default defineConfig({
                 }),
             ],
         }),
-        inertia(),
+        // Tambahkan { ssr: false } di bawah ini untuk mematikan kompilasi otomatis SSR lokal
+        inertia({ ssr: false }),
         react({
             babel: {
                 plugins: ['babel-plugin-react-compiler'],

@@ -1,3 +1,4 @@
+import MainLayout from "../Layouts/MainLayout";
 import { Head } from '@inertiajs/react';
 import { Globe, ChevronDown, Rocket, Shield, Terminal, Building2, Search, ArrowRight, UserPlus, ShieldCheck, KeyRound, GraduationCap } from 'lucide-react';
 import { useEffect, useState } from 'react';
@@ -507,6 +508,8 @@ export default function Welcome() {
                 </footer>
 
             </div>
-        </>
+        </MainLayout>
     );
-}
+};
+
+export default MyPage;

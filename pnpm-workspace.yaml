@@ -2,7 +2,11 @@ packages:
   - '.'
 
 allowBuilds:
+<<<<<<< HEAD
   unrs-resolver: false
+=======
+  unrs-resolver: true
+>>>>>>> d2b964f (database)
 
 publicHoistPattern:
   - '@inertiajs/core'
