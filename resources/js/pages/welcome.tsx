@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import MainLayout from "../Layouts/MainLayout";
 import { Head } from '@inertiajs/react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -24,5 +25,16 @@ export default function Welcome() {
                 </Card>
             </div>
         </MainLayout>
+=======
+import { Switch } from '@/components/ui/switch';
+
+const MyPage = () => {
+    return (
+        <div>
+            <Switch />
+        </div>
+>>>>>>> d2b964f (database)
     );
-}
+};
+
+export default MyPage;
